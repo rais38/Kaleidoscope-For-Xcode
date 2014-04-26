@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B141884B-A9FE-4887-A642-7B127C6DCD97</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KaleidoscopeForXcode</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D30DBEEB-8EC7-425C-A374-7F986742D490</key>
+		<string>https://github.com/rais38/Kaleidoscope-For-Xcode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KaleidoscopeForXcode.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D30DBEEB-8EC7-425C-A374-7F986742D490</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rais38/Kaleidoscope-For-Xcode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D30DBEEB-8EC7-425C-A374-7F986742D490</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D30DBEEB-8EC7-425C-A374-7F986742D490</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kaleidoscope-For-Xcode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

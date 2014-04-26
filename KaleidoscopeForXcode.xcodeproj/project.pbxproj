@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3914603190998E20035CFB7 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3914602190998E20035CFB7 /* AppKit.framework */; };
+		D3914605190998E20035CFB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3914604190998E20035CFB7 /* Foundation.framework */; };
+		D391460B190998E20035CFB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3914609190998E20035CFB7 /* InfoPlist.strings */; };
+		D391460E190998E20035CFB7 /* RAMKaleidoscopeForXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = D391460D190998E20035CFB7 /* RAMKaleidoscopeForXcode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D39145FF190998E20035CFB7 /* KaleidoscopeForXcode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaleidoscopeForXcode.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3914602190998E20035CFB7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D3914604190998E20035CFB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3914608190998E20035CFB7 /* KaleidoscopeForXcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaleidoscopeForXcode-Info.plist"; sourceTree = "<group>"; };
+		D391460A190998E20035CFB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D391460C190998E20035CFB7 /* RAMKaleidoscopeForXcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAMKaleidoscopeForXcode.h; sourceTree = "<group>"; };
+		D391460D190998E20035CFB7 /* RAMKaleidoscopeForXcode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAMKaleidoscopeForXcode.m; sourceTree = "<group>"; };
+		D391460F190998E20035CFB7 /* KaleidoscopeForXcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaleidoscopeForXcode-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39145FC190998E20035CFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3914603190998E20035CFB7 /* AppKit.framework in Frameworks */,
+				D3914605190998E20035CFB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39145F6190998E20035CFB7 = {
+			isa = PBXGroup;
+			children = (
+				D3914606190998E20035CFB7 /* KaleidoscopeForXcode */,
+				D3914601190998E20035CFB7 /* Frameworks */,
+				D3914600190998E20035CFB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3914600190998E20035CFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39145FF190998E20035CFB7 /* KaleidoscopeForXcode.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3914601190998E20035CFB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3914602190998E20035CFB7 /* AppKit.framework */,
+				D3914604190998E20035CFB7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3914606190998E20035CFB7 /* KaleidoscopeForXcode */ = {
+			isa = PBXGroup;
+			children = (
+				D391460C190998E20035CFB7 /* RAMKaleidoscopeForXcode.h */,
+				D391460D190998E20035CFB7 /* RAMKaleidoscopeForXcode.m */,
+				D3914607190998E20035CFB7 /* Supporting Files */,
+			);
+			path = KaleidoscopeForXcode;
+			sourceTree = "<group>";
+		};
+		D3914607190998E20035CFB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3914608190998E20035CFB7 /* KaleidoscopeForXcode-Info.plist */,
+				D3914609190998E20035CFB7 /* InfoPlist.strings */,
+				D391460F190998E20035CFB7 /* KaleidoscopeForXcode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39145FE190998E20035CFB7 /* KaleidoscopeForXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3914612190998E20035CFB7 /* Build configuration list for PBXNativeTarget "KaleidoscopeForXcode" */;
+			buildPhases = (
+				D39145FB190998E20035CFB7 /* Sources */,
+				D39145FC190998E20035CFB7 /* Frameworks */,
+				D39145FD190998E20035CFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaleidoscopeForXcode;
+			productName = KaleidoscopeForXcode;
+			productReference = D39145FF190998E20035CFB7 /* KaleidoscopeForXcode.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39145F7190998E20035CFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RAM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rafael Aguilar";
+			};
+			buildConfigurationList = D39145FA190998E20035CFB7 /* Build configuration list for PBXProject "KaleidoscopeForXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D39145F6190998E20035CFB7;
+			productRefGroup = D3914600190998E20035CFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39145FE190998E20035CFB7 /* KaleidoscopeForXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39145FD190998E20035CFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D391460B190998E20035CFB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39145FB190998E20035CFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D391460E190998E20035CFB7 /* RAMKaleidoscopeForXcode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3914609190998E20035CFB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D391460A190998E20035CFB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3914610190998E20035CFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D3914611190998E20035CFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3914613190998E20035CFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaleidoscopeForXcode/KaleidoscopeForXcode-Prefix.pch";
+				INFOPLIST_FILE = "KaleidoscopeForXcode/KaleidoscopeForXcode-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		D3914614190998E20035CFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaleidoscopeForXcode/KaleidoscopeForXcode-Prefix.pch";
+				INFOPLIST_FILE = "KaleidoscopeForXcode/KaleidoscopeForXcode-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39145FA190998E20035CFB7 /* Build configuration list for PBXProject "KaleidoscopeForXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3914610190998E20035CFB7 /* Debug */,
+				D3914611190998E20035CFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3914612190998E20035CFB7 /* Build configuration list for PBXNativeTarget "KaleidoscopeForXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3914613190998E20035CFB7 /* Debug */,
+				D3914614190998E20035CFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39145F7190998E20035CFB7 /* Project object */;
+}
